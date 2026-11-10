@@ -1,0 +1,23 @@
+/* Name: Dhruv Saxena | Roll No: BCS2025626 | Assignment: 11 - Task 1 */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+.box-fixed {
+    width: 200px;
+    height: 40px;
+    background-color: #457b9d;
+}
+
+.box-half {
+    width: 50%;
+    height: 40px;
+    background-color: #e63946;
+}
+
+p {
+    font-size: 1.5rem;
+}

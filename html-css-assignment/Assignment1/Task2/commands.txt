@@ -1,0 +1,4 @@
+# Create index.html (the same content as task2.html), then run:
+git status
+git add index.html
+git commit -m "Add home page"

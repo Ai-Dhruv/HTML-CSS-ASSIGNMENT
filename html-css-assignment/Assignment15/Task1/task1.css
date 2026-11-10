@@ -1,0 +1,28 @@
+/* Name: Dhruv Saxena | Roll No: BCS2025626 | Assignment: 15 - Task 1 */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+/* Base styles for phones: the cards are stacked */
+.card {
+    background-color: #f1faee;
+    border: 2px solid #1d3557;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Screens 600px wide and up: the cards are side by side */
+@media (min-width: 600px) {
+    .cards {
+        display: flex;
+        gap: 15px;
+    }
+
+    .card {
+        flex: 1;
+    }
+}

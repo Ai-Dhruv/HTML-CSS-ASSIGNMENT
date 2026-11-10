@@ -1,0 +1,42 @@
+/* Name: Dhruv Saxena | Roll No: BCS2025626 | Assignment: 14 - Task 3 */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    gap: 10px;
+}
+
+.layout > div {
+    padding: 20px;
+    color: white;
+}
+
+.header {
+    grid-area: header;
+    background-color: #1d3557;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #457b9d;
+    min-height: 200px;
+}
+
+.main {
+    grid-area: main;
+    background-color: #2a9d8f;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #e63946;
+}
